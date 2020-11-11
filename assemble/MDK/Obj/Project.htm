@@ -3,7 +3,7 @@
 <title>Static Call Graph - [.\Obj\Project.axf]</title></head>
 <body><HR>
 <H1>Static Call Graph for image .\Obj\Project.axf</H1><HR>
-<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Tue Nov 10 17:42:36 2020
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060750: Last Updated: Wed Nov 11 16:27:34 2020
 <BR><P>
 <H3>Maximum Stack Usage =        296 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
 Call chain for Maximum Stack Depth:</H3>
@@ -959,12 +959,19 @@ Local Symbols
 <LI><a href="#[84]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;LD_ReadReg
 </UL>
 
+<P><STRONG><a name="[5d]"></a>SysTick_Config</STRONG> (Thumb, 76 bytes, Stack size 12 bytes, delay.o(i.SysTick_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SysTick_Config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_us
+<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_ms
+</UL>
+
 <P><STRONG><a name="[4e]"></a>DHT11_Check</STRONG> (Thumb, 82 bytes, Stack size 8 bytes, dht11.o(i.DHT11_Check))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DHT11_Check &rArr; GPIO_SETIN &rArr; GPIO_Init
 </UL>
 <BR>[Calls]<UL><LI><a href="#[51]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ReadInputDataBit
-<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_us
 <LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SETIN
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_us
 </UL>
 <BR>[Called By]<UL><LI><a href="#[58]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DHT11_Read_Data
 <LI><a href="#[52]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DHT11_Init
@@ -990,9 +997,9 @@ Local Symbols
 <P><STRONG><a name="[55]"></a>DHT11_Rst</STRONG> (Thumb, 44 bytes, Stack size 8 bytes, dht11.o(i.DHT11_Rst))
 <BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = DHT11_Rst &rArr; GPIO_SETOUT &rArr; GPIO_Init
 </UL>
-<BR>[Calls]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_us
+<BR>[Calls]<UL><LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SETOUT
+<LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_us
 <LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_ms
-<LI><a href="#[59]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SETOUT
 <LI><a href="#[5c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_SetBits
 <LI><a href="#[5a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_ResetBits
 </UL>
@@ -1014,13 +1021,6 @@ Local Symbols
 <BR>[Calls]<UL><LI><a href="#[54]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GPIO_Init
 </UL>
 <BR>[Called By]<UL><LI><a href="#[55]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DHT11_Rst
-</UL>
-
-<P><STRONG><a name="[5d]"></a>SysTick_Config</STRONG> (Thumb, 76 bytes, Stack size 12 bytes, delay.o(i.SysTick_Config))
-<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = SysTick_Config
-</UL>
-<BR>[Called By]<UL><LI><a href="#[50]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_us
-<LI><a href="#[5b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Delay_ms
 </UL>
 
 <P><STRONG><a name="[89]"></a>SetSysClock</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, system_stm32f10x.o(i.SetSysClock))

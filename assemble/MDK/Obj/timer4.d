@@ -33,7 +33,7 @@
 .\obj\timer4.o: ..\Source\Drive\usart_config.h
 .\obj\timer4.o: ..\Source\Drive\LD3320_config.h
 .\obj\timer4.o: ..\Source\Drive\LD3320.h
-.\obj\timer4.o: ..\MDK\lcd_st7735.h
+.\obj\timer4.o: ..\Source\Drive\lcd_st7735.h
 .\obj\timer4.o: D:\mdk_arm\ARM\ARMCC\Bin\..\include\stdlib.h
 .\obj\timer4.o: D:\mdk_arm\ARM\ARMCC\Bin\..\include\stdbool.h
 .\obj\timer4.o: D:\mdk_arm\ARM\ARMCC\Bin\..\include\string.h

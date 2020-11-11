@@ -36,9 +36,9 @@
 .\obj\main.o: ..\Source\Drive\LD3320.h
 .\obj\main.o: ..\Source\Drive\LDchip.h
 .\obj\main.o: ..\Source\Drive\Reg_RW.h
-.\obj\main.o: ..\MDK\lcd_st7735.h
+.\obj\main.o: ..\Source\Drive\lcd_st7735.h
 .\obj\main.o: D:\mdk_arm\ARM\ARMCC\Bin\..\include\stdlib.h
 .\obj\main.o: D:\mdk_arm\ARM\ARMCC\Bin\..\include\stdbool.h
 .\obj\main.o: D:\mdk_arm\ARM\ARMCC\Bin\..\include\string.h
-.\obj\main.o: ..\MDK\dht11.h
-.\obj\main.o: ..\MDK\delay.h
+.\obj\main.o: ..\Source\Drive\dht11.h
+.\obj\main.o: ..\Source\Drive\delay.h

@@ -1,5 +1,5 @@
-.\obj\lcd_st7735.o: lcd_st7735.c
-.\obj\lcd_st7735.o: lcd_st7735.h
+.\obj\lcd_st7735.o: ..\Source\Drive\lcd_st7735.c
+.\obj\lcd_st7735.o: ..\Source\Drive\lcd_st7735.h
 .\obj\lcd_st7735.o: ..\Source\STM32F10xLib\M3\stm32f10x.h
 .\obj\lcd_st7735.o: ..\Source\STM32F10xLib\M3\core_cm3.h
 .\obj\lcd_st7735.o: D:\mdk_arm\ARM\ARMCC\Bin\..\include\stdint.h
@@ -12,7 +12,7 @@
 .\obj\lcd_st7735.o: D:\mdk_arm\ARM\ARMCC\Bin\..\include\stdbool.h
 .\obj\lcd_st7735.o: D:\mdk_arm\ARM\ARMCC\Bin\..\include\string.h
 .\obj\lcd_st7735.o: ..\Source\STM32F10xLib\inc\stm32f10x_spi.h
-.\obj\lcd_st7735.o: font.h
+.\obj\lcd_st7735.o: ..\Source\Drive\font.h
 .\obj\lcd_st7735.o: ..\Source\STM32F10xLib\inc\stm32f10x_gpio.h
 .\obj\lcd_st7735.o: ..\Source\STM32F10xLib\inc\stm32f10x_rcc.h
-.\obj\lcd_st7735.o: delay.h
+.\obj\lcd_st7735.o: ..\Source\Drive\delay.h

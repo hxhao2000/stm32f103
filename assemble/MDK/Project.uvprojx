@@ -338,7 +338,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER</Define>
               <Undefine></Undefine>
-              <IncludePath>..\Source\APP;..\Source\BSP;..\Source\STM32F10xLib\inc;..\Source\STM32F10xLib\M3;..\Source\Public;..\Source\USB\lib;..\Source\USB\src;..\Source\Drive;D:\mdk_arm\pack\ARM\CMSIS\5.6.0\CMSIS\Core\Include;..\MDK;..\Source\Drive</IncludePath>
+              <IncludePath>..\Source\APP;..\Source\BSP;..\Source\STM32F10xLib\inc;..\Source\STM32F10xLib\M3;..\Source\Public;..\Source\USB\lib;..\Source\USB\src;..\Source\Drive;D:\mdk_arm\pack\ARM\CMSIS\5.6.0\CMSIS\Core\Include;..\Source\Drive</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -408,19 +408,19 @@
               <FilePath>..\Source\Drive\LD3320.c</FilePath>
             </File>
             <File>
-              <FileName>dht11.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\dht11.c</FilePath>
-            </File>
-            <File>
               <FileName>delay.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\delay.c</FilePath>
+              <FilePath>..\Source\Drive\delay.c</FilePath>
+            </File>
+            <File>
+              <FileName>dht11.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\Source\Drive\dht11.c</FilePath>
             </File>
             <File>
               <FileName>lcd_st7735.c</FileName>
               <FileType>1</FileType>
-              <FilePath>.\lcd_st7735.c</FilePath>
+              <FilePath>..\Source\Drive\lcd_st7735.c</FilePath>
             </File>
           </Files>
         </Group>
